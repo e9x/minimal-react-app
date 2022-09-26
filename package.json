@@ -6,9 +6,8 @@
 	"author": "",
 	"license": "MIT",
 	"scripts": {
-		"start": "http-server public",
-		"build": "tsc",
-		"build:watch": "tsc --watch"
+		"start": "concurrently \"http-server public\" \"tsc --preserveWatchOutput --watch\"",
+		"build": "tsc"
 	},
 	"files": [
 		"public"
@@ -16,6 +15,7 @@
 	"devDependencies": {
 		"@types/react": "^18.0.21",
 		"@types/react-dom": "^18.0.6",
+		"concurrently": "^7.4.0",
 		"eslint": "^8.24.0",
 		"eslint-config-react-app": "^7.0.1",
 		"http-server": "^14.1.1",
