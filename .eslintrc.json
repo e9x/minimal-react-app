@@ -6,6 +6,7 @@
 	},
 	"globals": {
 		"react": "readonly",
-		"react-dom": "readonly"
+		"react-dom": "readonly",
+		"ReactRouterDOM": "readonly"
 	}
 }

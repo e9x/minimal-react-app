@@ -30,6 +30,12 @@ const packages = [
 		file: 'public/assets/bundle/react-dom-client.js',
 		exports: 'named',
 	},
+	{
+		name: 'ReactRouterDOM',
+		package: 'react-router-dom',
+		file: 'public/assets/bundle/react-router-dom.js',
+		exports: 'default',
+	},
 ];
 
 /**
