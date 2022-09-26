@@ -36,18 +36,6 @@ const scripts = {
 		),
 	},
 	// Add more scripts here...
-	/*
-	'react-router-dom': {
-		development: new URL(
-			'./umd/react-router-dom.development.js',
-			pathToFileURL(require.resolve('react-router-dom'))
-		),
-		production: new URL(
-			'./umd/react-router-dom.production.min.js',
-			pathToFileURL(require.resolve('react-router-dom'))
-		),
-	},
-	*/
 };
 
 const jsDir = new URL('./public/assets/js/', import.meta.url);
