@@ -7,8 +7,4 @@
 
 declare var React: typeof import('react');
 declare var ReactDOM: typeof import('react-dom');
-
-declare module 'react-dom' {
-	var createRoot: typeof import('react-dom/client').createRoot;
-	var hydrateRoot: typeof import('react-dom/client').hydrateRoot;
-}
+declare var ReactDOMClient: typeof import('react-dom/client');
