@@ -5,9 +5,10 @@
 	"main": "index.js",
 	"author": "",
 	"license": "MIT",
+	"type": "module",
 	"scripts": {
-		"start": "concurrently \"http-server public\" \"tsc --preserveWatchOutput --watch\"",
-		"build": "tsc"
+		"start": "cross-env NODE_ENV=development concurrently \"http-server public\" \"tsc --preserveWatchOutput --watch\"",
+		"build": "cross-env NODE_ENV=production concurrently \"node build.js\" tsc"
 	},
 	"files": [
 		"public"
@@ -16,10 +17,13 @@
 		"@types/react": "^18.0.21",
 		"@types/react-dom": "^18.0.6",
 		"concurrently": "^7.4.0",
+		"cross-env": "^7.0.3",
 		"eslint": "^8.24.0",
 		"eslint-config-react-app": "^7.0.1",
 		"http-server": "^14.1.1",
 		"prettier": "^2.7.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
 		"typescript": "^4.8.3"
 	}
 }
