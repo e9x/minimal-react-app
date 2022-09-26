@@ -1,0 +1,11 @@
+{
+	"extends": ["eslint:recommended", "react-app", "plugin:jsx-a11y/recommended"],
+	"settings": {
+		"react": {
+			"version": "18"
+		}
+	},
+	"rules": {
+		"@typescript-eslint/consistent-type-imports": "warn"
+	}
+}
