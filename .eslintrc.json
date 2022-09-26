@@ -1,6 +1,11 @@
 {
 	"extends": ["eslint:recommended", "react-app", "plugin:jsx-a11y/recommended"],
 	"rules": {
-		"@typescript-eslint/consistent-type-imports": "warn"
+		"@typescript-eslint/consistent-type-imports": "warn",
+		"react/jsx-no-undef": ["error", { "allowGlobals": true }]
+	},
+	"globals": {
+		"react": "readonly",
+		"react-dom": "readonly"
 	}
 }
