@@ -8,6 +8,7 @@
 		"React": "readonly",
 		"ReactDOM": "readonly",
 		"ReactDOMClient": "readonly",
-		"ReactRouterDOM": "readonly"
+		"ReactRouterDOM": "readonly",
+		"ReactHelmet": "readonly"
 	}
 }

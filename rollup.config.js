@@ -36,6 +36,12 @@ const packages = [
 		file: 'public/assets/bundle/react-router-dom.js',
 		exports: 'default',
 	},
+	{
+		name: 'ReactHelmet',
+		package: './lib/helmet.js',
+		file: 'public/assets/bundle/react-helmet.js',
+		exports: 'default',
+	},
 ];
 
 /**
