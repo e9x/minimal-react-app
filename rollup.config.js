@@ -30,6 +30,12 @@ const packages = [
 		file: 'public/assets/bundle/react-dom-client.js',
 		exports: 'named',
 	},
+	{
+		name: 'ReactHelmet',
+		package: './lib/helmet.js',
+		file: 'public/assets/bundle/react-helmet.js',
+		exports: 'default',
+	},
 ];
 
 /**

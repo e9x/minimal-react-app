@@ -8,3 +8,4 @@
 declare var React: typeof import('react');
 declare var ReactDOM: typeof import('react-dom');
 declare var ReactDOMClient: typeof import('react-dom/client');
+declare var ReactHelmet: typeof import('react-helmet').default;
